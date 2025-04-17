@@ -29,6 +29,8 @@ if FileExist("words_frequency.txt") {
     } catch Error as e {
         MsgBox("Error loading word frequencies: " . e.Message)
     }
+} else {
+    FileAppend("", "words_frequency.txt")
 }
 
 ; Create the help GUI
