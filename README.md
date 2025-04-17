@@ -2,6 +2,8 @@
 
 ChordFinder is an AutoHotkey v2 script that helps users learn and discover Charachorder chord mappings while typing. It provides real-time suggestions and tracks word frequencies to help optimize your typing experience.
 
+**To use, download all files from this repository and then replace all text in `chords.json` with your exported chords library. Do not change the name of `chords.json`.**
+
 ## Features
 
 ### 1. Real-Time Chord Suggestions
